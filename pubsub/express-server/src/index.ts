@@ -5,4 +5,8 @@ const app = express()
 app.use(express.json())
 
 const client = createClient()
-client.on
+client.connect()
+
+app.post("/submit",(req,res)=>{
+    const
+})
